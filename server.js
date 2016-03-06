@@ -5,5 +5,5 @@ var http = require('http').Server(app);
 
 app.use(express.static(__dirname + '/public'));
 http.listen(PORT, function () {
-  console.log('server started!');
+  console.log('server started');
 });
